@@ -1,0 +1,133 @@
+@charset 'UTF-8';
+
+header>h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #da0000;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    background-color: #ad1313;
+    border-radius: 5px;
+    color: white;
+    transition: 1.4s;
+}
+
+header {
+
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.37);
+    background: linear-gradient(to top, #750000, #b10000);
+}
+
+body {
+    background-color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+main {
+    margin: 90px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+header>p {
+    text-align: center;
+    color: white;
+}
+
+
+
+main>h2 {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    margin-top: 0px;
+}
+
+main>p {
+    margin-left: 14px;
+    text-align: justify;
+    margin-right: 14px;
+    padding-block-end: 10px;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+main>h3 {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #ad1313, transparent);
+}
+
+main>div {
+    background-color: rgb(226, 226, 226);
+    height: 98px;
+    width: auto;
+    border: #700000 10px solid;
+    border-radius: 4px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+div>p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #700000;
+    color: white;
+    text-align: center;
+}
+
+@keyframes fedeIn {
+    from {
+        transform: translateY(10px),
+    }
+
+    to {
+        transform: translateY(-10px)
+    }
+}
+
+main>a>img {
+    border-radius: 10px;
+    border: #700000 3px solid;
+    margin-left: 60px;
+    max-width: 350;
+    animation: fedeIn 3s ease-out;
+}
+
+main>a {
+    text-decoration: none !important;
+}
+
+main>a:hover {
+    background-color: unset;
+    border: unset;
+    color: unset;
+}
+
+main>iframe {
+    border-radius: 10px;
+    border: #700000 3px solid;
+    margin-left: 60px;
+}
