@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media print {
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main {
+        border: 5px solid black;
+    }
+
+    main::after {
+        content: Essa impressão foi feita atraves do site www.fuhdckiw.com;
+    }
+
+    img#Celular{display: none;}
+
+    img#Tablet{display: none;}
+
+    img#Impressora{display: block;}
+
+    img#Pc{display: none;}
+
+    img#Tv{display: none;}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../IMAGENS/back-tablet.jpg);
+    }
+
+    img#Celular{display: none;}
+
+    img#Tablet{display: block;}
+
+    img#Impressora{display: none;}
+
+    img#Pc{display: none;}
+
+    img#Tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url(../IMAGENS/back-pc.jpg);
+    }
+
+    img#Celular{display: none;}
+
+    img#Tablet{display: none;}
+
+    img#Impressora{display: none;}
+
+    img#Pc{display: block;}
+
+    img#Tv{display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../IMAGENS/back-tv.jpg);
+    }
+
+    img#Celular{display: none;}
+
+    img#Tablet{display: none;}
+
+    img#Impressora{display: none;}
+
+    img#Pc{display: none;}
+
+    img#Tv{display: block;}
+}
